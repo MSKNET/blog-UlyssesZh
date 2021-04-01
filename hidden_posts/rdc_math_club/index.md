@@ -72,3 +72,7 @@ lang: cn
 # 14 矢量分析
 
 ![矢量分析](vector_analysis.svg)
+
+# 15 可测函数
+
+![可测函数](measurable_functions.svg)
