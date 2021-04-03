@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-source 'https://rubygems.org'
+source 'https://mirrors.tuna.tsinghua.edu.cn/rubygems/'
 
 gem 'jekyll', '~> 4'
 gem 'minima'
@@ -18,3 +18,4 @@ gem 'rubocop'
 gem 'rubocop-rspec'
 gem 'rubocop-performance'
 gem 'wdm', install_if: Gem.win_platform?
+gem 'webrick', install_if: RUBY_VERSION >= '3.0.0'
