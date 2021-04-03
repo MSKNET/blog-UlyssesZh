@@ -65,7 +65,7 @@
 	{{ content }}
 	await runScriptFromUrl('js/main.js');
 {% endif %}
-	window.onload();
+	document.body.lastChild.onload = window.onload;
 })();
 </script>
 </body>
